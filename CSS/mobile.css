@@ -1,0 +1,127 @@
+@media screen and (max-width: 600px) {
+  .lottie > lottie-player {
+    height: 20px;
+    width: 20px;
+  }
+
+  .box__style-2 {
+    z-index: -1;
+  }
+
+  .links {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-3);
+    height: 80vh;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -20%);
+    -webkit-clip-path: circle(100px at 90% -20%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+    z-index: 1;
+    font-size: 1.4rem;
+  }
+
+  .links.open {
+    clip-path: circle(1500px at 90% -20%);
+    -webkit-clip-path: circle(1500px at 90% -20%);
+    pointer-events: all;
+  }
+
+  .hum__btn {
+    display: block;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .img__comp {
+    display: none;
+  }
+
+  .img__mob {
+    display: inline;
+    height: 80px;
+    margin-bottom: 70px;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .content__left {
+    text-align: center;
+  }
+
+  .content__left > p {
+    width: 100%;
+  }
+
+  .social-icon > li {
+    z-index: 0;
+  }
+
+  /* about */
+
+  .about__container {
+    flex-direction: column;
+  }
+
+  .about__content {
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about__content > h1 {
+    font-size: 2.5rem;
+  }
+
+  /* skill */
+
+  .skill__icon > img {
+    height: 40px;
+  }
+
+  /* project */
+
+  .project__item > h1 {
+    font-size: 1.7rem;
+    }
+
+  .Grid__container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .project__item {
+    width: 80%;
+    margin: auto;
+  }
+
+  .project__item > img {
+    width: 100%;
+  }
+
+  /* Contect */
+
+  .contect__form {
+    width: 80%;
+  }
+
+  .tape-4 {
+    left: 65%;
+  }
+  .tape-3{
+      left: 20%;
+  }
+}
