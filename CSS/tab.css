@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
 
     body{
         overflow-x: hidden;
@@ -7,6 +7,10 @@
     .lottie >lottie-player{
         height: 40px;width: 40px;
     }
+
+    .box__style-2, .box__style {
+        display: none;
+      }
 
     .w-1{
         width: 90vw;
@@ -87,25 +91,13 @@
       }
 
       /* Contect */
+
       .tape-1,.tape-2{
           display: none;
       }
 
-      .tape-3,.tape-4{
-          display: block;
-          width: 100px;
-          height: 20px;
-          left: 30%;
-          top: 12%;
-          transform: rotate(90deg);
-      }
-
-      .tape-4{
-        left: 55%;
-      }
-
       .contect__form{
-          width: 50%;
+          width: 60%;
       }
      
 }
