@@ -1,7 +1,11 @@
 @media screen and (max-width: 600px) {
   .lottie > lottie-player {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .github{
+    font-size: 2rem;
   }
 
   .box__style-2, .box__style {
@@ -70,6 +74,8 @@
     width: 50%;
     margin: auto;
   }
+
+  
 
   .social-icon > li {
     z-index: 0;
