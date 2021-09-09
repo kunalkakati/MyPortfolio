@@ -6,7 +6,9 @@ const copyText = document.querySelector(".gmail");
 
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("open");
-  icon.classList.toggle("fa-times");
+  setTimeout(()=>{
+    icon.classList.toggle("fa-times");
+  },500);
 });
 
 
